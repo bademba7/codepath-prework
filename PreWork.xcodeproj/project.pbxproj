@@ -29,9 +29,22 @@
 		CD1E3E0D2DC27ED60096D5F8 /* PreWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CDA68BA92DC2952F00FBBCCA /* Exceptions for "PreWork" folder in "PreWork" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CD1E3DEC2DC27ED50096D5F8 /* PreWork */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		CD1E3DEF2DC27ED50096D5F8 /* PreWork */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CDA68BA92DC2952F00FBBCCA /* Exceptions for "PreWork" folder in "PreWork" target */,
+			);
 			path = PreWork;
 			sourceTree = "<group>";
 		};
